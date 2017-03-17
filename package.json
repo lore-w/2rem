@@ -1,6 +1,6 @@
 {
     "name": "2rem",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -14,6 +14,20 @@
         "type": "git",
         "url": "git@github.com:lore-w/to-rem.git"
     },
+    "keywords": [
+        "postcss-plugin",
+        "postcss-rem",
+        "postcss-px-rem",
+        "postcss-2rem",
+        "to-rem",
+        "rem",
+        "2rem",
+        "rem-calc",
+        "px2rem",
+        "convert px",
+        "convert rem",
+        "pxTorem"
+    ],
     "license": "ISC",
     "dependencies": {
         "gulp-util": "^3.0.8",
