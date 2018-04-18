@@ -37,7 +37,7 @@ module.exports = postcss.plugin('toRem', function toRem(options) {
 
                         valueNum = val.match(regFirstValue)[1] * 1;
 
-                        if (valueNum > options.mini) {
+                        if (valueNum > options.mini && declValue.length < 100) {
 
                             declValue = declValue.replace(regFirstValue, valueNum / options.base + 'rem');
                         }
